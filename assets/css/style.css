@@ -8913,7 +8913,7 @@ a {
   transition: all 0.2s ease-in-out;
   -webkit-transform: translate3d(0, 0, 0);
   color: #363636;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover,
 a:active,
@@ -9445,7 +9445,6 @@ hr.large {
 .blog-post .post-head h3,
 .blog-post .post-head a {
   color: #ffffff;
-  text-decoration: none;
 }
 .blog-post .post-head a:hover {
   color: #ebebeb;
@@ -9459,6 +9458,10 @@ hr.large {
   margin-left: 15px;
   margin-left: 0.9375rem;
 }
+.blog-post .post-body a {
+    text-decoration: underline;
+}
+
 .blog-post .post-body .post-content {
   display: block;
 }
