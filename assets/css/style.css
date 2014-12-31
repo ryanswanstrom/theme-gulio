@@ -9170,6 +9170,9 @@ hr.large {
   line-height: 1.625rem;
   color: #ffffff;
 }
+.header .site-description ul li a {
+    text-decoration: none;
+}
 .header .site-description ul li a:hover,
 .header .site-description ul li a.active {
   text-decoration: underline;
@@ -9442,6 +9445,7 @@ hr.large {
 .blog-post .post-head h3,
 .blog-post .post-head a {
   color: #ffffff;
+  text-decoration: none;
 }
 .blog-post .post-head a:hover {
   color: #ebebeb;
